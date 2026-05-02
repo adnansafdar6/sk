@@ -76,7 +76,7 @@ class CustomUser(AbstractUser):
         "wallet balance", max_digits=12, decimal_places=2, default=Decimal("0.00")
     )
     referral_code = models.CharField(
-        "referral code", max_length=12, unique=True, blank=True, db_index=True
+        "referral code", max_length=12, unique=True, blank=True, 
     )
 
     # ── Timestamps ───────────────────────────────────────────────────────

@@ -40,7 +40,7 @@ class Migration(migrations.Migration):
             name="referral_code",
             field=models.CharField(
                 blank=True,
-                db_index=True,
+                
                 max_length=12,
                 verbose_name="referral code",
             ),
@@ -53,7 +53,6 @@ class Migration(migrations.Migration):
             name="referral_code",
             field=models.CharField(
                 blank=True,
-                db_index=True,
                 max_length=12,
                 unique=True,
                 verbose_name="referral code",
