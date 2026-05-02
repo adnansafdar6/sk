@@ -1,0 +1,50 @@
+# ──────────────────────────────────────────────
+# Python / Django
+# ──────────────────────────────────────────────
+*.py[cod]
+__pycache__/
+*.so
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+*.log
+
+# ──────────────────────────────────────────────
+# Environment files (CRITICAL — secrets)
+# ──────────────────────────────────────────────
+.env
+.env.local
+.env.production
+.env.*.local
+
+# ──────────────────────────────────────────────
+# Node / Vite / React
+# ──────────────────────────────────────────────
+node_modules/
+dist/
+build/
+.vite/
+.next/
+
+# ──────────────────────────────────────────────
+# IDE / OS
+# ──────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
