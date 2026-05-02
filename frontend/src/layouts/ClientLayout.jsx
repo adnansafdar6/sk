@@ -59,10 +59,10 @@ export default function ClientLayout() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2.5 group shrink-0">
               <div className="w-9 h-9 rounded-xl bg-linear-to-br from-primary-500 to-primary-700 flex items-center justify-center shadow-lg group-hover:shadow-primary-500/30 transition-shadow duration-300">
-                <span className="text-white font-bold text-sm">SK</span>
+                <span className="text-white font-bold text-sm">NG</span>
               </div>
               <span className="text-base font-semibold theme-text tracking-tight hidden sm:block">
-                Starter Kit
+                NexGen
               </span>
             </Link>
 
@@ -327,9 +327,9 @@ export default function ClientLayout() {
               {/* Logo */}
               <div className="flex items-center gap-2.5 mb-4">
                 <div className="w-9 h-9 rounded-xl bg-linear-to-br from-primary-500 to-primary-700 flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold text-sm">SK</span>
+                  <span className="text-white font-bold text-sm">NG</span>
                 </div>
-                <span className="text-base font-bold theme-text tracking-tight">Starter Kit</span>
+                <span className="text-base font-bold theme-text tracking-tight">NexGen</span>
               </div>
               <p className="text-sm leading-relaxed mb-5 theme-text-muted max-w-xs">
                 Earn real USDT daily by completing simple tasks. Transparent payouts, no hidden fees, and 24/7 support.
@@ -438,7 +438,7 @@ export default function ClientLayout() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
               <p className="text-xs theme-text-muted order-2 sm:order-1">
-                © {new Date().getFullYear()} SK Starter Kit. All rights reserved. · Built with ❤️ for earners worldwide.
+                © {new Date().getFullYear()} NexGen. All rights reserved. · Built with ❤️ for earners worldwide.
               </p>
               <div className="flex items-center gap-5 order-1 sm:order-2">
                 <Link to="/support" className="text-xs theme-text-muted hover:theme-text transition-colors">Support</Link>
