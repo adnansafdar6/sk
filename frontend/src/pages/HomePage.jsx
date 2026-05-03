@@ -720,9 +720,9 @@ function WhatsAppButton({ link }) {
 
 const PLAN_GRADIENTS = [
   { color: "from-blue-500 to-indigo-600",    accent: "text-blue-400",    border: "rgba(99,102,241,0.35)",  bg: "rgba(99,102,241,0.07)",  gradient: "linear-gradient(135deg,#6366f1,#4338ca)" },
-  { color: "from-primary-500 to-primary-700",accent: "text-primary-400", border: "rgba(99,102,241,0.45)",  bg: "rgba(99,102,241,0.10)",  gradient: "linear-gradient(135deg,#818cf8,#6366f1)" },
   { color: "from-amber-500 to-orange-500",   accent: "text-amber-400",   border: "rgba(245,158,11,0.35)",  bg: "rgba(245,158,11,0.07)",  gradient: "linear-gradient(135deg,#f59e0b,#f97316)" },
   { color: "from-rose-500 to-pink-600",      accent: "text-rose-400",    border: "rgba(244,63,94,0.35)",   bg: "rgba(244,63,94,0.07)",   gradient: "linear-gradient(135deg,#f43f5e,#db2777)" },
+  { color: "from-violet-500 to-purple-600",  accent: "text-violet-400",  border: "rgba(139,92,246,0.35)",  bg: "rgba(139,92,246,0.07)",  gradient: "linear-gradient(135deg,#8b5cf6,#9333ea)" },
   { color: "from-emerald-500 to-teal-600",   accent: "text-emerald-400", border: "rgba(16,185,129,0.35)",  bg: "rgba(16,185,129,0.07)",  gradient: "linear-gradient(135deg,#10b981,#0d9488)" },
   { color: "from-violet-500 to-purple-600",  accent: "text-violet-400",  border: "rgba(139,92,246,0.35)",  bg: "rgba(139,92,246,0.07)",  gradient: "linear-gradient(135deg,#8b5cf6,#9333ea)" },
 ];
